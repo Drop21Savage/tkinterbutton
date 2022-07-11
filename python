@@ -1,0 +1,15 @@
+#this is for a website button
+
+from tkinter import *
+from tkinter import messagebox
+
+ws = Tk()
+ws.title('Lewis Shut Up ')
+
+def subscribe():
+    return messagebox.showinfo('Lewis no one cares','Lewis shut the actual fuck up')
+
+Button(ws, text="Subscribe", command=subscribe).pack(pady=20)
+
+
+ws.mainloop()
